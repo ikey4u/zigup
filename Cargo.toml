@@ -1,0 +1,15 @@
+[package]
+name = "zigup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.16", features = ["derive", "wrap_help"] }
+dirs = "5.0.1"
+liblzma = "0.3.4"
+reqwest = { version = "0.12.7", features = ["blocking", "json", "socks"] }
+semver = "1.0.23"
+serde = { version = "1.0.208", features = ["derive"] }
+serde_json = "1.0.125"
+tar = "0.4.41"
