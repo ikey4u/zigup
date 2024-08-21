@@ -4,7 +4,7 @@ A [Zig](https://ziglang.org/) installer and manager.
 
 ## Installation
 
-    cargo install zigup
+    cargo install --git https://github.com/ikey4u/zigup
 
 ## Usage
 
