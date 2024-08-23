@@ -1,6 +1,6 @@
 [package]
 name = "zigup"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
@@ -8,6 +8,7 @@ anyhow = "1.0.86"
 clap = { version = "4.5.16", features = ["derive", "wrap_help"] }
 dirs = "5.0.1"
 liblzma = "0.3.4"
+openssl = { version = "0.10.66", features = ["vendored"] }
 reqwest = { version = "0.12.7", features = ["blocking", "json", "socks"] }
 semver = "1.0.23"
 serde = { version = "1.0.208", features = ["derive"] }
